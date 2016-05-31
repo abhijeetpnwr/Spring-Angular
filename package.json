@@ -1,47 +1,22 @@
 {
-  "name": "generator-angular-spring",
-  "version": "0.0.2",
-  "description": "(Java Spring MVC + AngularJS)/Tomcat Yeoman generator",
-  "license": "Apache 2.0",
-  "main": "app/index.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/madtrax/generator-angular-spring"
+  "name": "SpringTestApp",
+  "homepage": "localhost",
+  "author": {
+    "name": "Abhijeet",
+    "email": "abhijeetpnwr@gmail.com"
   },
-  "author": "Mathieu DARDENNE <mathieu@dardenne.fr> (https://github.com/madtrax/generator-angular-spring)",
+  "version": "0.0.0",
   "engines": {
-    "node": ">=0.10.0"
-  },
-  "scripts": {
-    "test": "mocha"
-  },
-  "files": [
-    "app"
-  ],
-  "keywords": [
-    "java",
-    "spring",
-    "mvc",
-    "web",
-    "javascript",
-    "angular",
-    "angularjs",
-    "yeoman-generator"
-  ],
-  "dependencies": {
-    "yeoman-generator": "^0.18.0"
+    "node": ">= 0.10.0"
   },
   "devDependencies": {
-    "mocha": "*"
-  },
-  "peerDependencies": {
-    "yo": ">=1.0.0"
-  },
-  "bugs": {
-    "url": "https://github.com/madtrax/generator-angular-spring/issues"
-  },
-  "homepage": "https://github.com/madtrax/generator-angular-spring",
-  "directories": {
-    "test": "test"
+    "grunt": "~0.4.5",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-contrib-qunit": "~0.5.2",
+    "grunt-contrib-concat": "~0.4.0",
+    "grunt-contrib-uglify": "~0.5.0",
+    "grunt-contrib-copy": "~0.7.0",
+    "grunt-bower-concat": "~0.4.0"
   }
 }
